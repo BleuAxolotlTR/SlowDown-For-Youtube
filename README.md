@@ -19,4 +19,4 @@ Eklenti YouTube ve `youtube-nocookie.com` oynatıcılarında çalışır. Hız m
 
 ## Lisans
 
-Bu proje [GNU Genel Kamu Lisansı, sürüm 3 (GNU GPL v3.0)](https://www.gnu.org/licenses/gpl-3.0.html) koşulları altında lisanslanmıştır. Lisansın tam metni için GNU’nun resmi lisans sayfasına bakın.
+Bu proje **GNU General Public License v3.0 (GPLv3)** lisansı altında korunmaktadır. Detaylı bilgi için [LICENSE](LICENSE) dosyasına göz atabilirsiniz.
