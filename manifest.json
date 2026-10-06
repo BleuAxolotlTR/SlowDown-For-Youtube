@@ -1,0 +1,34 @@
+{
+  "manifest_version": 3,
+  "name": "SlowDown for YouTube",
+  "version": "1.0.0",
+  "description": "YouTube videolarının oynatma hızını 1× ile sınırlar.",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.youtube.com/*",
+        "https://youtube.com/*",
+        "https://www.youtube-nocookie.com/*",
+        "https://youtube-nocookie.com/*"
+      ],
+      "js": [
+        "speed-limit.js"
+      ],
+      "run_at": "document_start",
+      "world": "MAIN",
+      "all_frames": true
+    }
+  ],
+  "icons": {
+    "16": "icon.png",
+    "32": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+  "action": {
+    "default_icon": {
+      "16": "icon.png",
+      "32": "icon.png"
+    }
+  }
+}
